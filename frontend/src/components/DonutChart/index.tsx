@@ -17,10 +17,12 @@ function DonutChart() {
     return (
         <Chart 
             options={{ ...options, labels: mockData.labels}}
+            id="charat"
             series={mockData.series}
             type="donut"
             height="240"
         />
+        
     );
 
     /*

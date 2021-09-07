@@ -17,7 +17,7 @@ function App() {
       <div className='container'>
         <h1 className='text-primary py-3'>Dashboard - Vendas</h1>
 
-        <div className="row px-3">
+        <div className="row px-3" id="home">
           <div className="col-sm-6">
             <h5 className="text-center text-secundary">
               Taxa de Sucesso
@@ -35,7 +35,7 @@ function App() {
         <div className="py-3">
           <h2 className="text-primary">Vendas Atuais</h2>
         </div>
-
+    
         <DataTable />
       </div>
       <Footer />
