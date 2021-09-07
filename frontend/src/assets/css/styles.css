@@ -30,3 +30,11 @@ html, body {
 .text-primary {
     color: var(--color-primary) !important;
 }
+
+
+/* MINHAS EDIÇÕES */
+#nomeRodape {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
