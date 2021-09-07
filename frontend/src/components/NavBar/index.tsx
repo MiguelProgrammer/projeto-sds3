@@ -1,5 +1,6 @@
 
-import ImgDsDark from  'assets/img/ds-dark.svg';
+import ImgDsDark from 'assets/img/ds-dark.svg';
+import Imghk from 'assets/img/hk.png';
 
 function NavBar() {
     return (
@@ -7,6 +8,10 @@ function NavBar() {
             <div className="container">
                 <nav className="my-2 my-md-0 mr-md-3">
                     <img src={ImgDsDark} alt="DevSuperior" width="120" />
+                    <div className="">
+                        <img src={Imghk} alt="DevSuperior" width="25" /> 
+                        <b id="nomeHome">Miguel Silva</b>
+                    </div>
                 </nav>
             </div>
         </div>

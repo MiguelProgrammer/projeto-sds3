@@ -46,10 +46,9 @@ html, body {
 #nome, h5 {
     padding-top: 4%;
 }
-
-#chart {
-    max-width: 380px;
-    margin: 35px auto;
-    padding: 0;
-  }
+#nomeHome {
+    font-size: 110%;
+    font-style: italic inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
   
