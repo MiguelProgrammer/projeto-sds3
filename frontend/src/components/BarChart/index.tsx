@@ -1,4 +1,3 @@
-
 import Chart from 'react-apexcharts';
 
 function BarChart() {

@@ -1,4 +1,3 @@
-
 import ImgLkDin from 'components/Footer/img/lkdin.svg';
 import ImgGit from 'components/Footer/img/git.png';
 
