@@ -52,3 +52,23 @@ html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
   
+#tableSellers {
+    border:1px solid lightgray;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+.table-responsive {
+    margin: 10px;
+    background-color: white;
+}
+
+#nameColumn{
+    text-align: center;
+}
+
+#gliph {
+    float: left;
+    padding-top: 2%;
+    font-size: 80%;
+    color: cornflowerblue;
+}

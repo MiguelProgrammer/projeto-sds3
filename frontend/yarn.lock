@@ -7945,6 +7945,11 @@ os-browserify@^0.3.0:
   resolved "https://registry.yarnpkg.com/os-browserify/-/os-browserify-0.3.0.tgz#854373c7f5c2315914fc9bfc6bd8238fdda1ec27"
   integrity sha1-hUNzx/XCMVkU/Jv8a9gjj92h7Cc=
 
+owp.glyphicons@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/owp.glyphicons/-/owp.glyphicons-1.1.0.tgz#291ea8b35bf20b8fbdf5a29c682dfa99369f1d2f"
+  integrity sha512-LHvD7j+Q8bqokOJxHe9y8qI2rrjJXF4jWeXJNFdXpR5pzV7dp/8emhojqAr79HUAMu5zq/R4NdUizpfy2DMzIg==
+
 p-each-series@^2.1.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/p-each-series/-/p-each-series-2.2.0.tgz#105ab0357ce72b202a8a8b94933672657b5e2a9a"
