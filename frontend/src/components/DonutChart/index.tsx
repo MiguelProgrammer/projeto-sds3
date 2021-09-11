@@ -23,7 +23,7 @@ function DonutChart() {
             const myLabels = data.map(x => x.sellerName);
             const mySeries = data.map(x => x.sum);
 
-            setChartData({ labels: myLabels, series: mySeries});
+            setChartData({ labels: myLabels, series: mySeries });
             //console.log(chartData);
 
         });
@@ -33,23 +33,35 @@ function DonutChart() {
     MÁ PRÁTICA
     let chartData : ChartData = { series: [], labels: []};
     */
-   
+
     const options = {
         legend: {
             show: true
+        },
+        chart: {
+            dropShadow: {
+                enabled: true,
+                enabledOnSeries: undefined,
+                top: 7,
+                left: 15,
+                blur: 5,
+                color: '#000',
+                opacity: 15
+            }
         }
-    }
+}
 
-    return (
-        <Chart
-            options={{ ...options, labels: chartData.labels }}
-            id="charat"
-            series={chartData.series}
-            type="donut"
-            height="240"
-        />
+return (
+    <Chart
+        options={{ ...options, labels: chartData.labels }}
+        id="charat"
+        series={chartData.series}
+        type="donut"
+        height="240"
 
-    );
+    />
+
+);
 
     /*
     MOCK - Usado para testes, carregando dados estásticos

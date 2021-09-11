@@ -64,6 +64,17 @@ function BarChart() {
                 horizontal: true,
             }
         },
+        chart: {
+            dropShadow: {
+                enabled: true,
+                enabledOnSeries: undefined,
+                top: 5,
+                left: 9,
+                blur: 7,
+                color: '#000',
+                opacity: 5
+            }
+        }
     };
     
     return (
